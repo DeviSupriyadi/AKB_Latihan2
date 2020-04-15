@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">Latihan2</string>
+    
+    <!-- Login -->
+    <string name="str_uname_log">Username</string>
+    <string name="str_pw_log">Password</string>
+    <string name="str_btnlogin_log">LOGIN</string>
+    <string name="str_or_log">OR</string>
+    <string name="str_fb_log">CONNECT WITH FACEBOOK</string>
+    <string name="str_tanya_log">doesn\'t have account ?</string>
+    <string name="str_regis_log">Register</string>
+
+    <!-- Register -->
+    <string name="str_uname_regis">Username</string>
+    <string name="str_mail_regis">Email</string>
+    <string name="str_phone_regis">Phone Number</string>
+    <string name="str_laki_regis">Male</string>
+    <string name="str_wanita_regis">Female</string>
+    <string name="str_blood_regis">Blood Type</string>
+    <string name="str_a_regis">A</string>
+    <string name="str_b_regis">B</string>
+    <string name="str_o_regis">O</string>
+    <string name="str_ab_regis">AB</string>
+    <string name="str_rhesus_regis">Rhesus</string>
+    <string name="str_plus_regis">Positive</string>
+    <string name="str_negatif_regis">Negative</string>
+    <string name="str_pw_regis">Password</string>
+    <string name="str_repw_regis">Retype Password</string>
+    <string name="str_personal_regis">Personal</string>
+    <string name="str_organi_regis">Organization</string>
+    <string name="str_job_regis">Job</string>
+    <string name="str_joblist_regis">Freelance</string>
+    <string name="str_alamat_regis">Home Address</string>
+    <string name="str_loc_regis">Default Location</string>
+    <string name="str_setuju_regis">Agree with Terms and Conditions</string>
+    <string name="str_btnregis_regis">Register</string>
+
+    <!-- Almost There -->
+    <string name="str_judul_succ">Almost There</string>
+    <string name="str_thx_succ">Thank you for registering with us. One more \n step, you need to check your email \n to active your account</string>
+    <string name="str_btnverify_succ">Verify</string>
+    
+    <!-- Succes -->
+    <string name="str_judul_acc">Verify your Account</string>
+    <string name="str_have_acc">We have send verification code to your email</string>
+    <string name="str_enter_acc">enter verfification code here</string>
+    <string name="str_btnsend_acc">SEND</string>
+    <string name="str_tanya_acc">doesn\'t get the code?</string>
+    <string name="str_resend_acc">Resend</string>
+
+
 </resources>
