@@ -1,14 +1,13 @@
 <resources>
     <string name="app_name">Latihan2</string>
-    
+
     <!-- Login -->
     <string name="str_uname_log">Username</string>
     <string name="str_pw_log">Password</string>
     <string name="str_btnlogin_log">LOGIN</string>
     <string name="str_or_log">OR</string>
     <string name="str_fb_log">CONNECT WITH FACEBOOK</string>
-    <string name="str_tanya_log">doesn\'t have account ?</string>
-    <string name="str_regis_log">Register</string>
+    <string name="str_regis_log">doesn\'t have account? <b>Register</b></string>
 
     <!-- Register -->
     <string name="str_uname_regis">Username</string>
@@ -39,7 +38,7 @@
     <string name="str_judul_succ">Almost There</string>
     <string name="str_thx_succ">Thank you for registering with us. One more \n step, you need to check your email \n to active your account</string>
     <string name="str_btnverify_succ">Verify</string>
-    
+
     <!-- Succes -->
     <string name="str_judul_acc">Verify your Account</string>
     <string name="str_have_acc">We have send verification code to your email</string>
