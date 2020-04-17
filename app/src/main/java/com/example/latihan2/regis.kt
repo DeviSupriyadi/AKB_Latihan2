@@ -13,29 +13,20 @@ class regis : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_regis)
 
-        //gol darah
-        val gbloodSpinner : Spinner = findViewById(R.id.spblood)
-        ArrayAdapter.createFromResource(this,R.array.blood_regis,R.layout.harstyles).also {
-                adapter -> adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            gbloodSpinner.adapter = adapter
+        move.setOnClickListener() {
+            val intent = Intent(this, almost::class.java)
+            startActivity(intent)
+
+
+
+            toolbars.setNavigationIcon(R.drawable.ic_header_back)
+
+
         }
-
-        //Reshus
-        val gresusSpinner : Spinner = findViewById(R.id.resus)
-        ArrayAdapter.createFromResource(this,R.array.resus_regis,R.layout.harstyles).also {
-                adapter -> adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            gresusSpinner.adapter = adapter
-        }
-
-
-
-        toolbars.setNavigationIcon(R.drawable.ic_header_back)
-
-
-    }
-    fun onRadioButtonClicked(view: View){
-        if(view is RadioButton){
-            val checked = view.isChecked
+        fun onRadioButtonClicked(view: View) {
+            if (view is RadioButton) {
+                val checked = view.isChecked
+            }
         }
     }
 }

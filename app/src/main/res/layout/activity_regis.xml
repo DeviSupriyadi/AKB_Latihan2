@@ -9,13 +9,12 @@
 
     <Toolbar
         android:id="@+id/toolbars"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="413dp"
+        android:layout_height="40dp"
         android:background="@drawable/ic_header"
         android:navigationIcon="@drawable/ic_header_back"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -288,7 +287,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editText13" />
 
     <Button
-        android:id="@+id/tmbl1"
+        android:id="@+id/move"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -296,7 +295,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="50dp"
         android:layout_weight="1"
-        android:background="@drawable/btn_custom"
+        android:background="@drawable/btn_custom2"
         android:text="@string/str_btnregis_regis"
         android:textColor="@color/bg_color"
         app:layout_constraintBottom_toBottomOf="parent"
