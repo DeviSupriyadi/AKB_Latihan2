@@ -46,4 +46,20 @@
     <string name="str_btnsend_acc">SEND</string>
     <string name="str_tanya_acc">doesn\'t get the code ? <b>Resend</b></string>
 
+    <!-- Profile -->
+    <string name="numgive_pro">75</string>
+    <string name="give_pro">BLOOD GIVE</string>
+    <string name="numrec_pro">100</string>
+    <string name="rec_pro">BLOOD RECEIVED</string>
+    <string name="numthx_pro">330</string>
+    <string name="thxx_pro">THANKS</string>
+    <string name="cari_pro">Search Donor</string>
+    <string name="butuh_pro">Blood Needed</string>
+    <string name="pesan_pro">Message</string>
+    <string name="sejarah_pro">Donor History</string>
+    <string name="donor_pro">Search donor near you</string>
+    <string name="need_pro">4 Users need blood</string>
+    <string name="sanpe_pro">5 New Messages</string>
+    <string name="terima_pro">5 Gives 2 Recieved</string>
+
 </resources>
