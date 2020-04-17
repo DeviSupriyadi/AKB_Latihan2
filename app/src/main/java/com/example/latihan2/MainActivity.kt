@@ -6,6 +6,12 @@ import android.os.Bundle
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
 
+/* Tanggal Penggerjaan: 15 April 2020
+* NIM: 10117181
+* Nama: Devi Tiana Octaviani S
+* Kelas: IF-5
+*/
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

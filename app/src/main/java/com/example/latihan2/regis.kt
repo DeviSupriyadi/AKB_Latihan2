@@ -7,6 +7,12 @@ import android.content.Intent
 import android.view.View
 import android.widget.*
 
+/* Tanggal Penggerjaan: 15-16 April 2020
+* NIM: 10117181
+* Nama: Devi Tiana Octaviani S
+* Kelas: IF-5
+*/
+
 class regis : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
