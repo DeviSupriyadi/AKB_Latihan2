@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".verify"></activity>
-        <activity android:name=".almost"></activity>
+        <activity android:name=".profile"></activity>
+        <activity android:name=".verify" />
+        <activity android:name=".almost" />
         <activity android:name=".regis" />
         <activity android:name=".MainActivity">
             <intent-filter>

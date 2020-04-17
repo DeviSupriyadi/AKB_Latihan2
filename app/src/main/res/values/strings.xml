@@ -44,8 +44,6 @@
     <string name="str_have_acc">We have send verification code to your email</string>
     <string name="str_enter_acc">enter verfification code here</string>
     <string name="str_btnsend_acc">SEND</string>
-    <string name="str_tanya_acc">doesn\'t get the code?</string>
-    <string name="str_resend_acc">Resend</string>
-
+    <string name="str_tanya_acc">doesn\'t get the code ? <b>Resend</b></string>
 
 </resources>
