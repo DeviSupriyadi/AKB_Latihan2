@@ -27,12 +27,7 @@ class regis : AppCompatActivity() {
             gresusSpinner.adapter = adapter
         }
 
-        //job
-        val gkerjaSpinner : Spinner = findViewById(R.id.joob)
-        ArrayAdapter.createFromResource(this,R.array.ker_array,R.layout.harstyles).also {
-                adapter -> adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            gkerjaSpinner.adapter = adapter
-        }
+
 
         toolbars.setNavigationIcon(R.drawable.ic_header_back)
 

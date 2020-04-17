@@ -10,6 +10,7 @@
     <string name="str_regis_log">doesn\'t have account? <b>Register</b></string>
 
     <!-- Register -->
+    <string name="str_regis_regis">Register</string>
     <string name="str_uname_regis">Username</string>
     <string name="str_mail_regis">Email</string>
     <string name="str_phone_regis">Phone Number</string>

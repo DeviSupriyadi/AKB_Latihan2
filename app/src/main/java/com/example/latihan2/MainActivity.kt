@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val regis = findViewById(R.id.regist) as TextView
-        regis.setOnClickListener{
+        val registt = findViewById(R.id.regist) as TextView
+        registt.setOnClickListener{
             startActivity(Intent(this,regis::class.java))
         }
     }
