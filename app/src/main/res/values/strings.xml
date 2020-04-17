@@ -47,6 +47,8 @@
     <string name="str_tanya_acc">doesn\'t get the code ? <b>Resend</b></string>
 
     <!-- Profile -->
+    <string name="nameeee_pro">Devi Tiana Octaviani Supriyadi</string>
+    <string name="type_pro">Blood Type : B+</string>
     <string name="numgive_pro">75</string>
     <string name="give_pro">BLOOD GIVE</string>
     <string name="numrec_pro">100</string>
