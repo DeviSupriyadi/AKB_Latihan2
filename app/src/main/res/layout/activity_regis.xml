@@ -19,21 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/linear1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="12dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbars"
-        app:layout_constraintVertical_bias="0.0" >
-
     <EditText
         android:id="@+id/uname"
         android:layout_width="match_parent"
@@ -54,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="32dp"
         android:hint="@string/str_mail_regis"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="32dp"
         android:hint="@string/str_phone_regis"
         android:inputType="number"
@@ -74,78 +59,98 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="horizontal" >
-
-    <RadioButton
-        android:id="@+id/laki2"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/bulet"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="32dp"
-        android:layout_weight="1"
-        android:checked="true"
-        android:onClick="onRadioButtonClicked"
-        android:paddingStart="18dp"
-        android:paddingEnd="18dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:srcCompat="@drawable/ic_register_radio_off" />
+
+    <TextView
+        android:id="@+id/lakik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
         android:text="@string/str_laki_regis"
+        app:layout_constraintStart_toEndOf="@+id/bulet"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <ImageView
+        android:id="@+id/bulet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/lakik"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:srcCompat="@drawable/ic_register_radio_on" />
+
+    <TextView
+        android:id="@+id/perem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/str_wanita_regis"
+        app:layout_constraintStart_toEndOf="@+id/bulet1"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <EditText
+        android:id="@+id/bloods"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/str_blood_regis"
         android:textColor="#a3a3a3"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phone" >
-    </RadioButton>
-        <RadioButton
-            android:id="@+id/girl"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="7sp"
-            android:layout_weight="1"
-            android:onClick="onRadioButtonClicked"
-            android:paddingStart="18dp"
-            android:paddingEnd="18dp"
-            android:text="@string/str_wanita_regis"
-            android:textColor="#a3a3a3"
-            android:textSize="16sp"
-            android:textStyle="bold">
-        </RadioButton>
-    </RadioGroup>
+        app:layout_constraintTop_toBottomOf="@+id/lakik" />
 
-    </LinearLayout>
+    <EditText
+        android:id="@+id/rehsus"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/str_rhesus_regis"
+        android:textColor="#a3a3a3"
+        app:layout_constraintStart_toEndOf="@+id/bloods"
+        app:layout_constraintTop_toBottomOf="@+id/perem" />
 
-    <Spinner
-        android:id="@+id/spblood"
-        android:layout_width="130dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="7sp"
-        android:layout_marginEnd="60dp"
-        app:layout_constraintEnd_toStartOf="@+id/resus"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linear1" />
+    <ImageView
+        android:id="@+id/panah"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/bloods"
+        app:layout_constraintTop_toTopOf="@+id/bloods"
+        app:srcCompat="@drawable/ic_register_dropdown" />
 
-    <Spinner
-        android:id="@+id/resus"
-        android:layout_width="130dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="7sp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/pw"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linear1"
-        app:layout_constraintVertical_bias="0.0" />
+    <ImageView
+        android:id="@+id/panah1"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/rehsus"
+        app:layout_constraintTop_toTopOf="@+id/rehsus"
+        app:srcCompat="@drawable/ic_register_dropdown" />
 
     <EditText
         android:id="@+id/pw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_weight="1"
         android:ems="10"
@@ -153,7 +158,7 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linear1" />
+        app:layout_constraintTop_toBottomOf="@+id/bloods" />
 
     <EditText
         android:id="@+id/editText7"
@@ -289,10 +294,12 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="50dp"
         android:layout_weight="1"
         android:background="@drawable/btn_custom"
         android:text="@string/str_btnregis_regis"
         android:textColor="@color/bg_color"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
